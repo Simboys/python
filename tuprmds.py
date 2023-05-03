@@ -1,0 +1,11 @@
+n=int(input("enter a numberr"))
+s=()
+for i in range(n):
+    s+=(int(input("enter a element")),)
+    print(s)
+n=int(input("enter a number"))
+b=list(s)
+b.remove(n)
+s=tuple(b)
+print(n in b)    
+print(s)
