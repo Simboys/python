@@ -8,7 +8,7 @@ def get_product(numbers):
     product=1
     for num in numbers:
         product*=num
-        return product
+    return product
 numbers=[]
 while True:
     print("1.add a number in the list")
